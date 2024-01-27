@@ -1,0 +1,68 @@
+{% extends 'default.html.twig' %}
+
+{% block nav %}
+    {% include 'navigation.html.twig' %}
+{% endblock %}
+{% block content %}
+    <div class="mt-2">
+        <h1 class="text-3xl">Ervaring</h1>
+    </div>
+    <div class="mt-4 flex flex-col space-y-10">
+        <div>
+            <div class="w-full">
+                <span class="text-2xl text-start">Product Owner</span>
+                <span class="pl-5 text-end">Visymo Universal Search Group (jan. 2021 -> heden)</span>
+            </div>
+            <p class="mt-2">
+                Als Product Owner bij Visymo ben ik verantwoordelijk voor zowel het product als het team. Mijn
+                taak is om de ideeën van stakeholders te vertalen naar concrete tickets voor de ontwikkelaars,
+                daarbij stel ik de juiste prioriteiten aan zodat wat het team doet ook bijdraagt aan de waarde
+                van het product. Wat ik hierin belangrijk vind is niet alleen kijken naar nieuwe ideeën van de
+                stakeholders, maar ook naar onderhoudswerkzaamheden aan de applicatie die het team signaleert.
+            </p>
+            <p class="mt-2">
+                Naar een aantal jaar werkzaam te zijn als Product Owner kreeg ik vanuit Visymo meer
+                verantwoordelijkheden, zoals het houden van
+                jaargesprekken, bilateraal, het spreken met sollicitanten en externe partijen.
+            </p>
+        </div>
+
+        <div>
+            <div class="w-full">
+                <span class="text-2xl text-start">Medior Developer</span>
+                <span class="pl-5 text-end">Visymo Universal Search Group (sept. 2016 -> jan. 2021)</span>
+            </div>
+            <p class="mt-2">
+                Als Medior Developer heb ik aan meerdere projecten gewerkt. De eerste paar jaar was ik
+                verantwoordelijk voor het doorontwikkelen van een interne webapplicatie waar het marketing team
+                dagelijks gebruik van maakt om accounts bij verschillende online advertising platforms te beheren.
+                Dit project is ontwikkeld in
+                het Symfony framework met een MariaDB database en communiceert met meerdere externe APIs.
+            </p>
+            <p class="mt-2">
+                Vervolgens ben ik in teamverband verantwoordelijk geweest voor het ombouwen van een legacy
+                Search Engine Result Page (SERP). Hier was ik verantwoordelijk voor het
+                doorontwikkelen aan verschillende projecten, waaronder:
+                Frontend repository dat verantwoordelijk is voor meerdere websites
+                Backend repository dat verantwoordelijk is voor het ophalen, verwerken en opslaan van data uit
+                meerdere (externe) bronnen.
+
+                De communicatie tussen beide projecten verloopt via een client repository. Beide projecten zijn
+                opgezet in Symfony en gebaseerd op de ports en adapters architectuur.
+            </p>
+        </div>
+        <div>
+            <div class="w-full">
+                <span class="text-2xl text-start">Junior Developer</span>
+                <span class="pl-5 text-end">Kleding.nl (apr. 2016 -> sept. 2016)</span>
+            </div>
+            <p class="mt-2">
+                Ik ben mijn carrière begonnen bij Kleding.nl. Eerst een snuffelstage om vervolgens in de zomer te
+                gaan werken als junior developer. Mijn voornaamste werkzaamheden waren het onderhouden van zowel de
+                frontend als backend van Kleding.nl, dit gebeurde in vanilla PHP zonder een framework. De producten
+                van Kleding.nl worden uitgelezen via verschillende affiliate partijen door middel van console
+                commands en worden opgeslagen in zowel MySQL als Apache Solr.
+            </p>
+        </div>
+    </div>
+{% endblock %}

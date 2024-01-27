@@ -1,0 +1,62 @@
+{% extends 'default.html.twig' %}
+
+{% block nav %}
+    {% include 'navigation.html.twig' %}
+{% endblock %}
+{% block content %}
+    <div class="mt-2">
+        <h1 class="text-3xl">Projecten</h1>
+    </div>
+    <div class="mt-4 flex flex-col space-y-10">
+        <div>
+            <div class="w-full">
+                <span class="text-2xl text-start">
+                    <a href="https://brinkdev.nl" title="Brinkdev.nl">Brinkdev.nl</a></span>
+                <span class="pl-1 text-end">- Persoonlijk Digitaal Portfolio</span>
+            </div>
+            <p class="mt-2">
+                Brinkdev.nl vertegenwoordigt mijn lang gekoesterde droom van het creëren van een online ruimte waarin ik
+                mijn professionele reis kan delen met de wereld. Als een softwareontwikkelaar met een passie voor
+                webdesign, heb ik deze website in 2024 gelanceerd om een gestroomlijnde en aantrekkelijke presentatie
+                van mijn werk te bieden.
+            </p>
+            <p class="mt-2">
+                Dit project is meer dan alleen een digitaal visitekaartje; het is een weerspiegeling van mijn toewijding
+                aan mijn vakgebied en mijn voortdurende streven naar groei en verbetering. Met Brinkdev.nl nodig ik
+                bezoekers uit om mijn portfolio te verkennen, mijn projecten te bekijken en contact met mij op te nemen
+                voor eventuele samenwerkingsmogelijkheden of vragen.
+            </p>
+            <h2 class="mb-2 mt-2 font-bold dark:text-white">Gebruikte technieken:</h2>
+            <ul class="max-w-md space-y-1 list-disc list-inside dark:text-gray-400">
+                <li>Symfony 6.4</li>
+                <li>PHP 8.1</li>
+                <li>Twig</li>
+                <li>Tailwind CSS</li>
+            </ul>
+        </div>
+        <div>
+            <div class="w-full">
+                <span class="text-2xl text-start">
+                    <a href="https://gamereviewer.nl" title="gamereviewer.nl">Gamereviewer.nl</a></span>
+                <span class="pl-1 text-end">- Game reviews door een gamer</span>
+            </div>
+            <p class="mt-2">
+                Ik speel met enige regelmaat games zoals World of Warcraft, eigenlijk zolang ik me kan herinneren heb ik gamen al als een hobby.
+                Vroeg heb ik wel eens een YouTubekanaal gehad, maar uiteindelijk nooit de motivatie gehad om er mee door te gaan.
+                Met de introductie van ChatGPT begon ik te denken, wat nu als ik de kracht van ChatGPT gebruik om game reviews te schrijven
+                en die te publiceren op een website.
+            </p>
+            <p class="mt-2">
+                Gamereviewers.nl is een hobby project waar ik aan het onderzoeken ben hoe krachtig ChatGPT eigenlijk is en wat je er mee kan,
+                de website zelf is vrij simpel in elkaar gezet er is geen gebruik gemaakt van design patterns of bepaalde architecturen, daar is het project te eenvoudig voor.
+            </p>
+            <h2 class="mb-2 mt-2 font-bold dark:text-white">Gebruikte technieken:</h2>
+            <ul class="max-w-md space-y-1 list-disc list-inside dark:text-gray-400">
+                <li>Symfony 6.1</li>
+                <li>PHP 8.1</li>
+                <li>Twig</li>
+                <li>MySQL (doctrine)</li>
+            </ul>
+        </div>
+    </div>
+{% endblock %}
